@@ -48,7 +48,7 @@ The skill utilizes the `~/.config/mycroft/skills/skill-ovos-fallback-chatgpt.ope
 {
   "key": "sk-XXXYYYZZZAAABBB123",
   "model": "gpt-3.5-turbo",
-  "persona": "You are a helpful voice assistant with a friendly tone and fun sense of humor",
+  "persona": "You are a helpful voice assistant with a friendly tone and fun sense of humor. You respond in 40 words or fewer.",
   "enable_memory": true,
   "memory_size": 15,
   "__mycroft_skill_firstrun": false
@@ -57,11 +57,16 @@ The skill utilizes the `~/.config/mycroft/skills/skill-ovos-fallback-chatgpt.ope
 
 ### Configuration for use with Local AI
 
+You can use a llama-based local AI to power this skill. Make sure you update the "model" param and put any arbitrary key into the key param.
+
+If you're running a local ollama or llama.cpp instance, you can use `http://localhost:11434/v1` as the api_url. 
+
 ```json
 {
   "api_url": "https://llama.smartgic.io/v1",
   "key": "sk-xxx",
-  "persona": "You are a helpful voice assistant with a friendly tone and fun sense of humor",
+  "model": "llama3:latest",
+  "persona": "You are a helpful voice assistant with a friendly tone and fun sense of humor. You respond in 40 words or fewer.",
   "enable_memory": true,
   "memory_size": 15,
   "name": "A.I.",
@@ -69,6 +74,12 @@ The skill utilizes the `~/.config/mycroft/skills/skill-ovos-fallback-chatgpt.ope
   "__mycroft_skill_firstrun": false
 }
 ```
+
+## See also
+
+- [OVOS OpenAI Persona Plugin](https://github.com/OpenVoiceOS/ovos-solver-openai-persona-plugin) - The underlying plugin that powers this skill's integration with various AI models.
+- [Ollama OpenAI Compatibility](https://ollama.com/blog/openai-compatibility).
+- [Other compatible servers in the OVOS docs](https://openvoiceos.github.io/ovos-technical-manual/202-persona_server/#compatible-projects)
 
 ## Examples
 
