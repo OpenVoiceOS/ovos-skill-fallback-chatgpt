@@ -34,8 +34,6 @@ Under skill settings (`.config/mycroft/skills/skill-ovos-fallback-chatgpt.openvo
 | `name`          | `Chat G.P.T.`                                                           | Name to give to the AI assistant                                                      |
 | `confirmation`  | `true`                                                                  | Spoken confirmation will be triggered when a request is sent to the AI                |
 
-When using a local AI server instead of OpenAI, the `api_url`has to redirect to an alternative/local server compatible with OpenAI API. When using local AI, the `key` can be anything, but it has to exist. Read more about it in the OVOS technical manual, page [persona server](https://openvoiceos.github.io/ovos-technical-manual/persona_server/#compatible-projects)
-
 The default persona is `You are a helpful voice assistant with a friendly tone and fun sense of humor. You respond in 40 words or fewer.`
 
 ## Configurations
@@ -57,11 +55,9 @@ The skill utilizes the `~/.config/mycroft/skills/skill-ovos-fallback-chatgpt.ope
 
 ### Configuration for use with Local AI
 
-You can use a local AI to power this skill instead of Chat GPT. See some of the options in the "See also" section below.
+When using a local AI server instead of OpenAI, the `api_url`has to redirect to an alternative/local server compatible with OpenAI API. When using local AI, the `key` can be anything, but it has to exist. Read more about it in the OVOS technical manual, page [persona server](https://openvoiceos.github.io/ovos-technical-manual/persona_server/#compatible-projects)
 
-Hint: If you're running a llama server, you can use `http://localhost:11434/v1` as the api_url. 
-
-Hint: the skill currently requires the key param to be present; put any string into this parameter for local AI
+Hint: If you're running an ollama server, you can use `http://localhost:11434/v1` as the api_url. 
 
 ```json
 {
