@@ -57,9 +57,11 @@ The skill utilizes the `~/.config/mycroft/skills/skill-ovos-fallback-chatgpt.ope
 
 ### Configuration for use with Local AI
 
-You can use a llama-based local AI to power this skill. Make sure you update the "model" param and put any arbitrary key into the key param.
+You can use a local AI to power this skill instead of Chat GPT. See some of the options in the "See also" section below.
 
-If you're running a local ollama or llama.cpp instance, you can use `http://localhost:11434/v1` as the api_url. 
+Hint: If you're running a llama server, you can use `http://localhost:11434/v1` as the api_url. 
+
+Hint: the skill currently requires the key param to be present; put any string into this parameter for local AI
 
 ```json
 {
