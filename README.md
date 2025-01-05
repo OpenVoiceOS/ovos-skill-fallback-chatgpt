@@ -55,7 +55,7 @@ The skill utilizes the `~/.config/mycroft/skills/skill-ovos-fallback-chatgpt.ope
 
 ### Configuration for use with Local AI
 
-When using a local AI server instead of OpenAI, the `api_url`has to redirect to an alternative/local server compatible with OpenAI API. When using local AI, the `key` can be anything, but it has to exist. Read more about it in the OVOS technical manual, page [persona server](https://openvoiceos.github.io/ovos-technical-manual/persona_server/#compatible-projects)
+When using a local AI server instead of OpenAI, the `api_url` has to redirect to an alternative/local server compatible with OpenAI API. When using local AI, the `key` can be anything, but it has to exist. Read more about it in the OVOS technical manual, page [persona server](https://openvoiceos.github.io/ovos-technical-manual/persona_server/#compatible-projects)
 
 Hint: If you're running an ollama server, you can use `http://localhost:11434/v1` as the api_url. 
 
