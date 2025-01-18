@@ -1,0 +1,16 @@
+{
+  "skill_id": "skill-ovos-fallback-chatgpt.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/skill-ovos-fallback-chatgpt",
+  "name": "Habilidade de fallback do ChatGPT",
+  "description": "Em caso de dúvida, pergunte ao ChatGPT",
+  "examples": [
+    "Explique a computação quântica em termos simples",
+    "Tem alguma ideia criativa para o aniversário de uma criança de 10 anos?"
+  ],
+  "tags": [
+    null,
+    "LLM",
+    "pergunta",
+    "informação"
+  ]
+}
