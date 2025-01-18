@@ -1,12 +1,13 @@
 # Changelog
 
-## [0.1.12a1](https://github.com/OpenVoiceOS/ovos-skill-fallback-chatgpt/tree/0.1.12a1) (2024-12-02)
+## [0.1.13a1](https://github.com/OpenVoiceOS/ovos-skill-fallback-chatgpt/tree/0.1.13a1) (2025-01-18)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fallback-chatgpt/compare/0.1.11...0.1.12a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fallback-chatgpt/compare/0.1.12...0.1.13a1)
 
 **Merged pull requests:**
 
-- import galician and basque translations [\#53](https://github.com/OpenVoiceOS/ovos-skill-fallback-chatgpt/pull/53) ([JarbasAl](https://github.com/JarbasAl))
+- pt-pt/translate [\#57](https://github.com/OpenVoiceOS/ovos-skill-fallback-chatgpt/pull/57) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- Add ollama example to README [\#56](https://github.com/OpenVoiceOS/ovos-skill-fallback-chatgpt/pull/56) ([devvmh](https://github.com/devvmh))
 
 
 
