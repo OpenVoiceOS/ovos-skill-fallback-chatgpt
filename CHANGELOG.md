@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.13a2](https://github.com/OpenVoiceOS/ovos-skill-fallback-chatgpt/tree/0.1.13a2) (2025-01-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fallback-chatgpt/compare/0.1.13a1...0.1.13a2)
+
+**Merged pull requests:**
+
+- fix automations [\#59](https://github.com/OpenVoiceOS/ovos-skill-fallback-chatgpt/pull/59) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.13a1](https://github.com/OpenVoiceOS/ovos-skill-fallback-chatgpt/tree/0.1.13a1) (2025-01-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fallback-chatgpt/compare/0.1.12...0.1.13a1)
