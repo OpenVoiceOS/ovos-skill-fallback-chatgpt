@@ -1,5 +1,11 @@
 # ChatGPT Fallback Skill
 
+____
+
+> ⚠️ since `ovos-core` **version 0.5.0** this skill has been replaced by [ovos-persona](https://github.com/OpenVoiceOS/OVOS-persona) and should be uninstalled
+
+___
+
 When in doubt, ask ChatGPT, powered by [OpenAI Solver](https://github.com/OpenVoiceOS/ovos-solver-plugin-openai-persona).
 
 You need to configure a `key`, get it at https://platform.openai.com/api-keys
